@@ -35,4 +35,4 @@ class EmptyWinService(win32serviceutil.ServiceFramework):
         )
 	
 if __name__ == '__main__':
-    win32serviceutil.HandleCommandLine(EmptyWinService) # Строка для взаиможействия со службой через CLI 	
+    win32serviceutil.HandleCommandLine(EmptyWinService) # Строка для взаиможействия со службой (Установка, старт и т.д.) через CLI 	
